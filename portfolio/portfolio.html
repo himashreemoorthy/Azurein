@@ -1,0 +1,111 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Hima Shree — Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    /* Small custom tweaks to make the single-file look nicer */
+    .glass { background: rgba(255,255,255,0.06); backdrop-filter: blur(6px); }
+    .chip { padding: .25rem .6rem; border-radius: 9999px; font-size:.8rem; }
+  </style>
+</head>
+<body class="bg-gray-900 text-gray-100 leading-relaxed">
+  <div class="max-w-4xl mx-auto p-6">
+    <header class="flex items-center justify-between mb-8">
+      <div>
+        <h1 class="text-3xl font-bold">Hima Shree S</h1>
+        <p class="text-sm text-gray-300">Electronics & Communication | Developer | Problem Solver</p>
+      </div>
+      <div class="text-right">
+        <a href="mailto:himashree460@gmail.com" class="block text-sm">himashree460@gmail.com</a>
+        <a href="tel:+919361189047" class="block text-sm">+91 93611 89047</a>
+        <a href="sandbox:/mnt/data/Resume%20hima.pdf" class="inline-block mt-2 px-3 py-1 bg-indigo-600 rounded text-white text-sm">Download Resume</a>
+      </div>
+    </header><section class="grid grid-cols-1 md:grid-cols-3 gap-6">
+  <div class="md:col-span-2 bg-gray-800 p-6 rounded-lg glass">
+    <h2 class="text-xl font-semibold mb-3">About</h2>
+    <p class="text-gray-300">Motivated and detail-oriented Electronics and Communication Engineering student with strong interest in programming, data structures, and emerging technologies. Skilled in Python, Java and C. Passionate about building practical solutions that solve real-world problems.</p>
+
+    <div class="mt-6">
+      <h3 class="font-semibold">Projects</h3>
+      <ul class="mt-3 space-y-3 text-gray-200">
+        <li class="p-3 bg-gray-900 rounded">
+          <strong>Land Record Management System (Python)</strong>
+          <div class="text-sm text-gray-300">Digital management of land records, ownership and transactions to improve accuracy and accessibility.</div>
+        </li>
+        <li class="p-3 bg-gray-900 rounded">
+          <strong>To-Do List Application (Data Structures)</strong>
+          <div class="text-sm text-gray-300">Task management app to organize and track daily or long-term tasks efficiently.</div>
+        </li>
+        <li class="p-3 bg-gray-900 rounded">
+          <strong>Expense Tracker Application (Java)</strong>
+          <div class="text-sm text-gray-300">Records, categorizes and analyzes expenses for better financial management.</div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="mt-6">
+      <h3 class="font-semibold">Internships & Hackathons</h3>
+      <ul class="mt-3 text-gray-200 space-y-2">
+        <li><strong>All India Radio, Trichy</strong> — In-Plant Training (5 days). Gained exposure to signal modulation, transmission and reception systems.</li>
+        <li><strong>Barola Technologies, Chennai</strong> — AI Internship (7 days). Learned supervised/unsupervised learning and worked on mini AI projects.</li>
+        <li><strong>Hackathons:</strong> Participated in Smart India Hackathon (SIH), NIT Techno Hackathon.</li>
+      </ul>
+    </div>
+  </div>
+
+  <aside class="bg-gray-800 p-6 rounded-lg glass">
+    <h3 class="text-lg font-semibold mb-3">Quick Info</h3>
+    <div class="text-sm text-gray-300">
+      <p><strong>Phone:</strong> +91 93611 89047</p>
+      <p><strong>Email:</strong> himashree460@gmail.com</p>
+      <p><strong>Address:</strong> 2/181, Mela Street, Navalurku kuttapattu, Trichirapalli - 620009</p>
+    </div>
+
+    <div class="mt-5">
+      <h4 class="font-semibold">Education</h4>
+      <p class="text-sm text-gray-300 mt-1">K. Ramakrishnan College of Engineering — B.E. Electronics & Communication Engineering (2023 - 2027)</p>
+      <p class="text-sm text-gray-300 mt-2">Chellammal Matriculation School — (earlier education)</p>
+    </div>
+
+    <div class="mt-5">
+      <h4 class="font-semibold">Skills</h4>
+      <div class="mt-2 flex flex-wrap gap-2">
+        <span class="chip bg-gray-700">Python</span>
+        <span class="chip bg-gray-700">Java</span>
+        <span class="chip bg-gray-700">C</span>
+        <span class="chip bg-gray-700">IoT</span>
+        <span class="chip bg-gray-700">Basic Python</span>
+        <span class="chip bg-gray-700">Analytical Thinking</span>
+        <span class="chip bg-gray-700">Time Management</span>
+      </div>
+    </div>
+
+    <div class="mt-5">
+      <h4 class="font-semibold">Languages</h4>
+      <p class="text-sm text-gray-300 mt-1">English, Tamil</p>
+    </div>
+  </aside>
+</section>
+
+<section class="mt-8 bg-gray-800 p-6 rounded-lg glass">
+  <h2 class="text-xl font-semibold mb-3">Contact</h2>
+  <p class="text-gray-300">Want to work together or see more? Reach out by email or phone. You can also download the full resume.</p>
+  <div class="mt-4 flex flex-col sm:flex-row gap-3">
+    <a href="mailto:himashree460@gmail.com" class="px-4 py-2 bg-indigo-600 rounded text-white text-center">Email Me</a>
+    <a href="tel:+919361189047" class="px-4 py-2 bg-gray-700 rounded text-white text-center">Call</a>
+    <a href="sandbox:/mnt/data/Resume%20hima.pdf" class="px-4 py-2 border border-gray-600 rounded text-center">Resume (PDF)</a>
+  </div>
+</section>
+
+<footer class="mt-8 text-center text-gray-500 text-sm">
+  © <span id="year"></span> Hima Shree — Built with ♥
+</footer>
+
+  </div>  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script></body>
+</html>
